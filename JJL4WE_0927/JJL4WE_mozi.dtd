@@ -1,0 +1,6 @@
+
+<!DOCTYPE mozi [
+<!ELEMENT mozi (film*)>
+<!ELEMENT film(rendezo+,szinesz+,iro+)>
+<!ELEMENT film mufaj(horror|akcio|vigjatek) "horror">
+]>

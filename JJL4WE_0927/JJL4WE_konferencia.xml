@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JJL4WE_konferencia>
+ <konferencia>
+        <cim>Adatkezelés XML-ben</cim>
+        <hallgatók>
+            <hallgató>
+                <név>Hauer Attila Árpád</név>
+                <lakcím>Miskolc</lakcím>
+            </hallgató>    
+        </hallgatók>
+        <helyszín>Miskolci Egyetem</helyszín> 
+        <előadó>
+            <név>Dr. Bednarik László</név>
+            <adószám>0123456789</adószám>
+            <lakcím>Miskolc</lakcím>    
+        </előadó> 
+        <dátum>2029.09.27.</dátum>
+    </konferencia>
+</JJL4WE_konferencia>
