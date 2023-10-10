@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<JJL4WE_modell>
+    <A>
+        <a ID =""></a>
+        <b>
+            <x></x>
+            <y></y>
+        </b>
+        <c>
+            <d></d>
+            <e></e>
+        </c>   
+    </A>
+
+    <AB>
+        <c></c>
+    </AB>
+
+    <B>
+        <a ID =""></a>
+        <b>
+            <x></x>
+            <y></y>
+        </b> 
+    </B>
+
+    <C>
+        <a ID =""></a>
+        <b></b>
+    </C>
+
+</JJL4WE_modell>
