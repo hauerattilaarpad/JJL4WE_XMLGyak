@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JJL4WE_kurzusfelvetel tanev="2023/24" egyetem="ME">
+    <hallgato>
+        <hnev>Hauer Attila Árpád</hnev>
+        <szulev>2002</szulev>
+        <szak evf="5"></szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEFIT011-B">
+            <kurzusnev>Fizika II</kurzusnev>
+            <kredit>4</kredit>
+            <hely>XXX.ea,A1/207</hely>
+            <idopont>Hétfő 8:00-10:00, Szerda 16:00-18:00</idopont>
+            <oktato>Pszota Gábor</oktato>
+            <oraado>Nagy Ádám</oraado>
+        </kurzus>
+    
+
+    
+        <kurzus id="GEIAL31H-B">
+            <kurzusnev>Szoftvertesztelés</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Hétfő 10:00-12:00,Hétfő 12:00-14:00</idopont>
+            <oktatok>Dr. Hornyák Olivér</oktatok>
+        </kurzus>
+    
+
+    
+        <kurzus id="GEIAL331-B">
+            <kurzusnev>Web technológiák 1</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXX A1 III. em. 305</hely>
+            <idopont>Hétfő 14:00-16:00,Hétfő 16:00-18:00</idopont>
+            <oktatok>Dr. Agárdi Anita</oktatok>
+        </kurzus>
+    
+
+    
+        <kurzus id="GEIAK130-B">
+            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII A1 magasfsz</hely>
+            <idopont>Kedd 10:00-12:00, Csütrötök 10:00-12:00</idopont>
+            <oktatok>Kunné Dr. Tamás Judit</oktatok>
+        </kurzus>
+   
+
+    
+        <kurzus id="GEIAL332-B">
+            <kurzusnev>Adatkezelés XML-ben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII A1 magasfsz</hely>
+            <idopont>Kedd 12:00-14:00,Szerda 12:00-14:00</idopont>
+            <oktatok>Dr. Bednarik László</oktatok>
+        </kurzus>
+
+
+
+        <kurzus id="GEVEE050-B">
+            <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A1/207</hely>
+            <idopont>Hétfő 8:00-10:00, Szerda 10:00-12:00</idopont>
+            <oktato>Szabó Norbert</oktato>
+        </kurzus>
+
+
+
+        <kurzus id="GEIAL333-B">
+            <kurzusnev>Web alkalmazások (Java nyelven)</kurzusnev>
+            <kredit>5</kredit>
+            <hely>Online</hely>
+            <idopont>Kedd 14:00-18:00</idopont>
+            <oktatok>Selmeci Viktor</oktatok>
+        </kurzus>
+
+
+
+        <kurzus id="MEIOKGEB1", jovahagyas="igen">
+            <kurzusnev>Idegennyelv 1</kurzusnev>
+            <kredit>0</kredit>
+            <hely>A1/XXXII.ea</hely>
+            <idopont>Péntek 8:00-10:00</idopont>
+            <oktatok>Selmeci Viktor</oktatok>
+        </kurzus>
+    </kurzusok>    
+    
+</JJL4WE_kurzusfelvetel>
