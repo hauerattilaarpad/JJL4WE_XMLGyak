@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T11:17:33.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="blIc-OYV5Ls18Gys7l3K" version="22.0.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-18T11:24:17.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="xqai_UwGH-RCiMenIibN" version="22.0.4" type="device">
   <diagram name="1 oldal" id="oMOHTNiDXLZ4Tq5TGuen">
-    <mxGraphModel dx="3217" dy="2486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-2" value="Fesztival" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-2" value="Fesztival" style="ellipse;whiteSpace=wrap;html=1;perimeterSpacing=0;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="410" y="300" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-15" target="49Yj8wFPE6s808hMDjLJ-2">
@@ -43,7 +43,7 @@
         <mxCell id="49Yj8wFPE6s808hMDjLJ-18" value="év" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-19" value="Fellépő" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-19" value="Fellépő" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-240" y="300" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-24" target="49Yj8wFPE6s808hMDjLJ-19">
@@ -85,7 +85,7 @@
         <mxCell id="49Yj8wFPE6s808hMDjLJ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-30" target="49Yj8wFPE6s808hMDjLJ-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-30" value="Tulajdonos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-30" value="Tulajdonos" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="410" y="-40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-31" value="T_ID" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -130,7 +130,7 @@
             <mxPoint x="510" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-49" value="Bár" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-49" value="Bár" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="410" y="740" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-50" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-54" target="49Yj8wFPE6s808hMDjLJ-49">
@@ -169,7 +169,7 @@
         <mxCell id="49Yj8wFPE6s808hMDjLJ-58" value="ital" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="480" y="850" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-59" value="Alkalmazott" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-59" value="Alkalmazott" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-233" y="740" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-60" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-64" target="49Yj8wFPE6s808hMDjLJ-59">
@@ -208,7 +208,7 @@
         <mxCell id="49Yj8wFPE6s808hMDjLJ-67" value="műszak" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-163" y="850" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-68" value="Részvevő" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-68" value="Részvevő" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="1120" y="310" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-69" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-73" target="49Yj8wFPE6s808hMDjLJ-68">
@@ -245,7 +245,7 @@
           <mxGeometry x="1220" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-77" value="település" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="420" width="140" height="60" as="geometry" />
+          <mxGeometry x="1660" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-78" value="utca" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1514" y="420" width="140" height="60" as="geometry" />
@@ -272,13 +272,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-83" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="480" width="20" height="30" as="geometry" />
+          <mxGeometry x="1430" y="500" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-84" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1574" y="480" width="20" height="30" as="geometry" />
+          <mxGeometry x="1574" y="500" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-85" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="480" width="20" height="30" as="geometry" />
+          <mxGeometry x="1720" y="500" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="49Yj8wFPE6s808hMDjLJ-78" target="49Yj8wFPE6s808hMDjLJ-84">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -367,7 +367,7 @@
             <mxPoint x="360" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="49Yj8wFPE6s808hMDjLJ-122" value="Nyelvtudás" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="49Yj8wFPE6s808hMDjLJ-122" value="Nyelvtudás" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="1120" y="730" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49Yj8wFPE6s808hMDjLJ-124" value="Nyelvtudás" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
