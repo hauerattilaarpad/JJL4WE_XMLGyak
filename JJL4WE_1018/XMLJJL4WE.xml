@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Fesztivál_JJL4WE>
+
+    <!--Fesztivál-->
+    <fesztivál FESZ_ID="1">
+        
+        <név>Balaton Sound</név>
+        <helyszín>Zamárdi</helyszín>
+        <év>2023</év>
+
+    </fesztivál>
+
+    <Fesztivál FESZ_ID="2">
+
+        <név>Kocsonyafesztivál</név>
+        <helyszín>Miskolc</helyszín>
+        <év>2023</év>
+        
+    </Fesztivál>
+
+    <!--Tulajdonos-->
+    <tulajdonos T_ID="1" fesztivál="1">
+
+        <név>Lobenwein Norbert</név>
+        <adószám>54321012-3-45</adószám>
+        <alapítás>2010</alapítás>
+        <bevétel>80901070</bevétel>
+
+    </tulajdonos>
+
+    
+    <tulajdonos T_ID="2" fesztivál="2">
+
+        <név>Szabó Sándor</név>
+        <adószám>98765432-1-12</adószám>
+        <alapítás>1991</alapítás>
+        <bevétel>98045695</bevétel>
+
+    </tulajdonos>
+
+    <!--Fellépő-->
+    <fellépő FEL_ID="1" fesztivál="1">
+        
+        <név>Azariah</név>
+        <ország>Magyar</ország>
+        <díj>750000</díj>
+
+    </fellépő>
+
+    <fellépő FEL_ID="2" fesztivál="2">
+        
+        <nev>Imagine Dragons</nev>
+        <orszag>Amerika</orszag>
+        <dij>1000000</dij>
+
+    </fellépő>
+
+    <!--Bár-->
+    <bár B_ID="1" fesztivál="1">
+        
+        <név>Heineken stand</név>
+        <cég>Heineken</cég>
+        <ital>Heineken 0.0</ital>
+        <ital>Heineken Original</ital>
+        <ital>Heineken Silver</ital>
+
+    </bár>
+
+    <bar B_ID="1" fesz_ID="1">
+
+        <nev>Hell Bár</nev>
+        <ceg>Hell</ceg>
+        <ital>Hell</ital>
+        <ital>Xixo</ital>
+
+    </bar>
+
+        <!--Alkalmazott-->
+    <alkalmazott A_ID="1" munkahely="1">
+
+            <név>Nagy Tamás</név>
+            <fizetés>500000</fizetés>
+            <műszak>14-20</műszak>
+            <műszak>22-24</műszak>
+    
+    </alkalmazott>
+    
+    <alkalmazott A_ID="2" munkahely="1">
+    
+            <név>Szabó Ferenc</név>
+            <fizetés>600000</fizetés>
+            <műszak>10-16</műszak>
+            <műszak>18-22</műszak>
+    
+    </alkalmazott>
+
+    <!--Résztvevő-->
+    <résztvevő K_ID="1" fesztivál="1">
+        
+        <név>Füves Zoltán</név>
+        <lakcím>
+        
+            <település>Miskolc</település>
+            <utca>Aba</utca>
+            <házszám>52</házszám>
+
+        </lakcím>
+
+    </résztvevő>
+
+    <résztvevő K_ID="2" fesztivál="2">
+        
+        <név>Zöld Bence</név>
+        <diákigazolvány>81536749215</diákigazolvány>
+        <lakcím>
+        
+            <település>Miskolc</település>
+            <utca>Jókai Mór</utca>
+            <házszám>44</házszám>
+
+        </lakcím>
+
+    </résztvevő>
+
+    <!--Nyelvtudás-->
+    <nyelvtudás NY_ID="1">
+        
+        <nyelv>Angol</nyelv>
+        <szint>B2</szint>
+
+    </nyelvtudás>
+    <nyelvtudás NY_ID="2">
+        
+        <nyelv>Angol</nyelv>
+        <szint>C2</szint>
+
+    </nyelvtudás>
+
+    <!--Közvélemény-->
+    <közvélemény Ko_ID="1" résztvevő="1" nyelvtudás="1">
+        
+        <kérdező>Kovács János</kérdező>
+    
+    </közvélemény>
+
+    <közvélemény Ko_ID="2" résztvevő="2" nyelvtudás="2">
+        
+        <kérdező>Faragó Richárd</kérdező>
+    
+    </közvélemény>
+
+</Fesztivál_JJL4WE>
