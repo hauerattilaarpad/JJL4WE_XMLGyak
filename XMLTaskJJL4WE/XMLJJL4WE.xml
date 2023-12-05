@@ -6,33 +6,34 @@
         <célállomás>Budapest</célállomás>
         <indulási_idő>2023/11/17 17:00</indulási_idő>
         <érkezési_idő>2023/11/17 19:00</érkezési_idő>
-        <státusz>felszállásra kész</státusz>
-    </Járat>
-
-    <Járat Járatszám="112" Légitársaság_ID="11">
-        <célállomás>London</célállomás>
-        <indulási_idő>2023/11/18 20:00</indulási_idő>
-        <érkezési_idő>2023/11/19 01:00</érkezési_idő>
         <státusz>késik</státusz>
     </Járat>
 
-    <Járat Járatszám="113" Légitársaság_ID="13">
+    <Járat Járatszám="112" Légitársaság_ID="11">
         <célállomás>Atlanta</célállomás>
         <indulási_idő>2023/11/20 11:00</indulási_idő>
-        <érkezési_idő>2023/11/20 15:00</érkezési_idő>
-        <státusz>úton</státusz>
+        <érkezési_idő>2023/11/20 23:00</érkezési_idő>
+        <státusz>várható</státusz>
+        
+    </Járat>
+
+    <Járat Járatszám="113" Légitársaság_ID="13">
+        <célállomás>London</célállomás>
+        <indulási_idő>2023/11/18 23:00</indulási_idő>
+        <érkezési_idő>2023/11/19 06:00</érkezési_idő>
+        <státusz>várható</státusz>
     </Járat>
 
     <!--Jegy-->
     <Jegy Jegysorszám="1111">
         <ár>40000</ár>
-        <légitársaság>Lufthansa</légitársaság>
+        <légitársaság>Emirates</légitársaság>
         <uticél>
             <reptérnév>Heathrow</reptérnév>
             <ország>Egyesült Királyság</ország>        
         </uticél>
-        <indulási_idő>2023/11/18 20:00</indulási_idő>
-        <érkezési_idő>2023/11/19 01:00</érkezési_idő>
+        <indulási_idő>2023/11/18 23:00</indulási_idő>
+        <érkezési_idő>2023/11/19 06:00</érkezési_idő>
         <hely>
             <osztály>1</osztály>
             <székszám>31</székszám>
@@ -56,13 +57,13 @@
 
     <Jegy Jegysorszám="1113">
         <ár>50000</ár>
-        <légitársaság>Emirates</légitársaság>
+        <légitársaság>Lufthansa</légitársaság>
         <uticél>
             <reptérnév>Hartsfield-Jackson</reptérnév>
             <ország>Egyesült Államok</ország>        
         </uticél>
         <indulási_idő>2023/11/20 11:00</indulási_idő>
-        <érkezési_idő>2023/11/20 15:00</érkezési_idő>
+        <érkezési_idő>2023/11/20 23:00</érkezési_idő>
         <hely>
             <osztály>1</osztály>
             <székszám>11</székszám>
@@ -74,7 +75,7 @@
         <név>Hauer Attila</név>
         <születésiév>2002</születésiév>
         <nem>Férfi</nem>
-        <lakcím>Downing Street 10 London Nagy-Britannia, SW1A1AA</lakcím>
+        <lakcím>Magyarország, 3527 Miskolc József Attila u. 12</lakcím>
         <telefonszám>+36201234567</telefonszám>
         <telefonszám>+36701234567</telefonszám>
     </Utasok>
@@ -83,7 +84,7 @@
         <név>Olivia Thompson</név>
         <születésiév>2001</születésiév>
         <nem>Nő</nem>
-        <lakcím>Nagy-Britannia, SW1A1AA London Downing Street 10</lakcím>
+        <lakcím>Nagy-Britannia, SW1A 2AB London Downing Street 10</lakcím>
         <telefonszám>+36209876428</telefonszám>
         <telefonszám>+36702138757</telefonszám>
         <telefonszám>+36705834653</telefonszám>
@@ -93,7 +94,7 @@
         <név>Benjamin Mitchell</név>
         <születésiév>1970</születésiév>
         <nem>Nő</nem>
-        <lakcím>USA, 90210 Beverly Hills Rodeo Drive 123</lakcím>
+        <lakcím>USA, CA 90212 Beverly Hills Rodeo Drive 123</lakcím>
         <telefonszám>+36202345965</telefonszám>
     </Utasok>
 
@@ -114,7 +115,7 @@
     <Dolgozó D_ID="2001" Reptér_ID="1">
         <név>Balla Sándor</név>    
         <munkakör>Biztonságiőr</munkakör>
-        <lakcím>Magyarország, 3525 Miskolc Arany János u. 32</lakcím> 
+        <lakcím>Magyarország, 3530 Miskolc Arany János u. 32</lakcím> 
         <telefonszám>+36204567534</telefonszám>
         <fizetés>450000</fizetés>
         <pozício>Biztonsági vezető</pozício>
@@ -123,7 +124,7 @@
     <Dolgozó D_ID="2002" Reptér_ID="3">
         <név>Kobe Briant</név>    
         <munkakör>Felszolgáló</munkakör>
-        <lakcím>USA, 90210 Beverly Hills Rodeo Drive 25</lakcím> 
+        <lakcím>USA, CA 90212 Beverly Hills Rodeo Drive 25</lakcím> 
         <telefonszám>+36203641243</telefonszám>
         <fizetés>750000</fizetés>
         <pozício>Légi forgalmi irányító</pozício>
@@ -132,7 +133,7 @@
     <Dolgozó D_ID="2003" Reptér_ID="2">
         <név>Charles Hamilton</név>    
         <munkakör>bőröndmérő</munkakör>
-        <lakcím>Nagy-Britannia, SW1A1AA London Downing Street 76</lakcím> 
+        <lakcím>Nagy-Britannia, SW1A 2AD London Downing Street 76</lakcím> 
         <telefonszám>+36301237659</telefonszám>
         <telefonszám>+36708646856</telefonszám>
         <telefonszám>+36207363457</telefonszám>
