@@ -32,7 +32,7 @@ public class DOMQueryJjl4we {
 			String atlagDolgozofizetes = getAverageSalary(document);
 			System.out.println(atlagDolgozofizetes);
 
-			// 4 legtöbbet kereső dolgozó
+			// 5 legtöbbet kereső dolgozó
 			printHighestEarningEmployee(document);
 
 		} catch (IOException | SAXException | ParserConfigurationException e) {

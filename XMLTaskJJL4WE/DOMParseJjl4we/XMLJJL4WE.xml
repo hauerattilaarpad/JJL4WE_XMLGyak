@@ -6,33 +6,34 @@
         <célállomás>Budapest</célállomás>
         <indulási_idő>2023/11/17 17:00</indulási_idő>
         <érkezési_idő>2023/11/17 19:00</érkezési_idő>
-        <státusz>várható</státusz>
-    </Járat>
-
-    <Járat Járatszám="112" Légitársaság_ID="11">
-        <célállomás>London</célállomás>
-        <indulási_idő>2023/11/18 20:00</indulási_idő>
-        <érkezési_idő>2023/11/19 01:00</érkezési_idő>
         <státusz>késik</státusz>
     </Járat>
 
-    <Járat Járatszám="113" Légitársaság_ID="13">
+    <Járat Járatszám="112" Légitársaság_ID="11">
         <célállomás>Atlanta</célállomás>
         <indulási_idő>2023/11/20 11:00</indulási_idő>
-        <érkezési_idő>2023/11/20 15:00</érkezési_idő>
+        <érkezési_idő>2023/11/20 23:00</érkezési_idő>
+        <státusz>várható</státusz>
+        
+    </Járat>
+
+    <Járat Járatszám="113" Légitársaság_ID="13">
+        <célállomás>London</célállomás>
+        <indulási_idő>2023/11/18 23:00</indulási_idő>
+        <érkezési_idő>2023/11/19 06:00</érkezési_idő>
         <státusz>várható</státusz>
     </Járat>
 
     <!--Jegy-->
     <Jegy Jegysorszám="1111">
         <ár>40000</ár>
-        <légitársaság>Lufthansa</légitársaság>
+        <légitársaság>Emirates</légitársaság>
         <uticél>
             <reptérnév>Heathrow</reptérnév>
             <ország>Egyesült Királyság</ország>        
         </uticél>
-        <indulási_idő>2023/11/18 20:00</indulási_idő>
-        <érkezési_idő>2023/11/19 01:00</érkezési_idő>
+        <indulási_idő>2023/11/18 23:00</indulási_idő>
+        <érkezési_idő>2023/11/19 06:00</érkezési_idő>
         <hely>
             <osztály>1</osztály>
             <székszám>31</székszám>
@@ -56,13 +57,13 @@
 
     <Jegy Jegysorszám="1113">
         <ár>50000</ár>
-        <légitársaság>Emirates</légitársaság>
+        <légitársaság>Lufthansa</légitársaság>
         <uticél>
             <reptérnév>Hartsfield-Jackson</reptérnév>
             <ország>Egyesült Államok</ország>        
         </uticél>
         <indulási_idő>2023/11/20 11:00</indulási_idő>
-        <érkezési_idő>2023/11/20 15:00</érkezési_idő>
+        <érkezési_idő>2023/11/20 23:00</érkezési_idő>
         <hely>
             <osztály>1</osztály>
             <székszám>11</székszám>
