@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<JJL4WE_orarend>
+        
+    <!-- Hétfő -->
+        
+    <ora id="1" típus="Elmélet">
+                
+        <targy>Fizika II</targy>
+                
+        <idopont>
+                        
+            <nap>hétfő</nap>
+                        
+            <tol>8</tol>
+                        
+            <ig>10</ig>
+                    
+        </idopont>
+                
+        <helyszin>A1/306</helyszin>
+                
+        <oktato>Nagy Bence</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="2" típus="Elmélet+gyakorlat">
+                
+        <targy>szoftware tesztelés</targy>
+                
+        <idopont>
+                        
+            <nap>hétfő</nap>
+                        
+            <tol>10</tol>
+                        
+            <ig>14</ig>
+                    
+        </idopont>
+                
+        <helyszin>info 103</helyszin>
+                
+        <oktato>Dr. Hornyák Olivér</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="3" típus="Elmélet+gyakorlat">
+                
+        <targy>Web technológia</targy>
+                
+        <idopont>
+                        
+            <nap>hétfő</nap>
+                        
+            <tol>14</tol>
+                        
+            <ig>18</ig>
+                    
+        </idopont>
+                
+        <helyszin>XXXIII A1 magasfsz</helyszin>
+                
+        <oktato>Agárdi Anita</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <!-- Kedd -->
+       
+    <ora id="4" típus="Elmélet">
+                
+        <targy>Mesterséges intelligencia</targy>
+                
+        <idopont>
+                        
+            <nap>kedd</nap>
+                        
+            <tol>10</tol>
+                        
+            <ig>12</ig>
+                    
+        </idopont>
+                
+        <helyszin>XXXII.ea</helyszin>
+                
+        <oktato>Fazekas Levente</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="5" típus="Elmélet">
+                
+        <targy>Lineáris algebra</targy>
+                
+        <idopont>
+                        
+            <nap>kedd</nap>
+                        
+            <tol>12</tol>
+                        
+            <ig>14</ig>
+                    
+        </idopont>
+                
+        <helyszin>XXXII A1 magasfsz</helyszin>
+                
+        <oktato>Dr. Bednarik László</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="6" típus="Elmélet+gyakorlat">
+                
+        <targy>WEB-es alkalmazások</targy>
+                
+        <idopont>
+                        
+            <nap>kedd</nap>
+                        
+            <tol>14</tol>
+                        
+            <ig>18</ig>
+                    
+        </idopont>
+                
+        <helyszin>online</helyszin>
+                
+        <oktato>Selmeci Viktor</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <!-- Szerda -->
+        
+    <ora id="7" típus="Gyakorlat">
+                
+        <targy>Elektro technika</targy>
+                
+        <idopont>
+                        
+            <nap>Szerda</nap>
+                        
+            <tol>10</tol>
+                        
+            <ig>12</ig>
+                    
+        </idopont>
+                
+        <helyszin>A1/109 A1 I. em. 109</helyszin>
+                
+        <oktato>Szabó Norbert</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="8" típus="Elmélet+gyakorlat">
+                
+        <targy>Adatkezelés XML-ben</targy>
+                
+        <idopont>
+                        
+            <nap>Szerda</nap>
+                        
+            <tol>12</tol>
+                        
+            <ig>14</ig>
+                    
+        </idopont>
+                
+        <helyszin>info 103</helyszin>
+                
+        <oktato>Dr. Bednarik László</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <ora id="9" típus="Gyakorlat">
+                
+        <targy>Fizika II</targy>
+                
+        <idopont>
+                        
+            <nap>Szerda</nap>
+                        
+            <tol>16</tol>
+                        
+            <ig>18</ig>
+                    
+        </idopont>
+                
+        <helyszin>A1/307 A1 III. em. 307</helyszin>
+                
+        <oktato>Nagy Ádám</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+        
+    <!-- Csütörtök -->
+        
+    <ora id="10" típus="Gyakorlat">
+                
+        <targy>Mesterséges intelligencia</targy>
+                
+        <idopont>
+                        
+            <nap>Csütörtök</nap>
+                        
+            <tol>10</tol>
+                        
+            <ig>12</ig>
+                    
+        </idopont>
+                
+        <helyszin>I.Ea</helyszin>
+                
+        <oktato>Fazekas Levente</oktato>
+                
+        <szak>Mérnök informatikus</szak>
+            
+    </ora>
+    
+</JJL4WE_orarend>
