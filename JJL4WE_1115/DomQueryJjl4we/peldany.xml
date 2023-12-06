@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ora id="1" típus="Elmélet">
+   <targy>Fizika II</targy>
+   <idopont>
+      <nap>hétfő</nap>
+      <tol>8</tol>
+      <ig>10</ig>
+   </idopont>
+   <helyszin>A1/306</helyszin>
+   <oktato>Dr. Pszota Gábor</oktato>
+   <szak>Mérnök informatikus</szak>
+</ora>
