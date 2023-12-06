@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hallgatoJJL4WE.xsl"?>
+<class>
+    <student id="01">
+        <vezeteknev>Hauer</vezeteknev>
+        <keresztnev>Attila</keresztnev>
+        <becenev>Ati</becenev>
+        <kor>21</kor>
+        <osztondij>20000</osztondij>
+    </student>
+    <student id="02">
+        <vezeteknev>Varga</vezeteknev>
+        <keresztnev>Zsolt</keresztnev>
+        <becenev>Zsolti</becenev>
+        <kor>20</kor>
+        <osztondij>27000</osztondij>
+    </student>
+    <student id="03">
+        <vezeteknev>Kocsis</vezeteknev>
+        <keresztnev>Balázs</keresztnev>
+        <becenev>Bazsi</becenev>
+        <kor>23</kor>
+        <osztondij>31000</osztondij>
+    </student>
+</class>
