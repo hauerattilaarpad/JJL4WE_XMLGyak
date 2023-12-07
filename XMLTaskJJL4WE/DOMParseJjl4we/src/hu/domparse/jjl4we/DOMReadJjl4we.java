@@ -1,4 +1,3 @@
-
 package hu.domparse.jjl4we;
 
 import java.io.File;
@@ -97,14 +96,22 @@ public class DOMReadJjl4we {
 
     // Rekurzív függvény az XML elemek formázására
     public static String formatElement(Node node, int indent) {
-    	// Ellenőrzés, hogy a Node objektum egy ELEMENT_NODE típusú-e
-        if (node.getNodeType() != Node.ELEMENT_NODE) {
+        // Ellenőrzés, hogy a Node objektum egy ELEMENT_NODE típusú-e vagy COMMENT_NODE
+        if (node.getNodeType() != Node.ELEMENT_NODE && node.getNodeType() != Node.COMMENT_NODE) {
             return "";
         }
         // StringBuilder létrehozása a formázott XML szöveg gyűjtésére
         StringBuilder output = new StringBuilder();
+
+        // Ha a Node objektum COMMENT_NODE típusú, akkor megjegyzést írunk ki
+        if (node.getNodeType() == Node.COMMENT_NODE) {
+            output.append(getIndentation(indent)).append("<!--").append(((Comment) node).getTextContent()).append("-->\n");
+            return output.toString();
+        }
+
         // Nyitó címke (tag) hozzáadása a StringBuilder-hez
         output.append(getIndentation(indent)).append("<").append(((Element) node).getTagName());
+
         // Ha a Node objektumnak vannak attribútumai, azok hozzáadása a StringBuilder-hez
         if (node.hasAttributes()) {
             for (int i = 0; i < node.getAttributes().getLength(); i++) {
@@ -112,21 +119,26 @@ public class DOMReadJjl4we {
                 output.append(" ").append(attribute.getNodeName()).append("=\"").append(attribute.getNodeValue()).append("\"");
             }
         }
+
         // A Node objektum gyerekeinek lekérése
         NodeList children = node.getChildNodes();
+
         // Ha csak egy szöveges tartalom van, azt egy sorban megjelenítjük
         if (children.getLength() == 1 && children.item(0).getNodeType() == Node.TEXT_NODE) {
             output.append(">").append(children.item(0).getTextContent().trim()).append("</").append(((Element) node).getTagName()).append(">\n");
         } else {
-        	// Nyitó címke (tag) befejezése és újsor karakter hozzáadása
+            // Nyitó címke (tag) befejezése és újsor karakter hozzáadása
             output.append(">\n");
+
             // Gyerekek formázása rekurzívan a megfelelő indentációval
             for (int i = 0; i < children.getLength(); i++) {
                 output.append(formatElement(children.item(i), indent + 1));
             }
+
             // Befejező címke (tag) hozzáadása a StringBuilder-hez, újsor karakterrel és indentációval
             output.append(getIndentation(indent)).append("</").append(((Element) node).getTagName()).append(">\n");
         }
+
         // A StringBuilder tartalmának visszaadása formázott XML szövegként
         return output.toString();
     }

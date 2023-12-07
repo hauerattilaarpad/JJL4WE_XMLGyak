@@ -170,14 +170,14 @@ public class DOMWriteJjl4we {
 
         // Járat felvétele
         root.appendChild(document.createComment("Járat"));
-        root.appendChild(createJárat(document, "111", "12", "Budapest", "2023/11/17 17:00", "2023/11/17 19:00", "várható"));
-        root.appendChild(createJárat(document, "112", "11", "London", "2023/11/18 20:00", "2023/11/19 01:00", "késik"));
-        root.appendChild(createJárat(document, "113", "13", "Atlanta", "2023/11/20 11:00", "2023/11/20 15:00", "várható"));
+        root.appendChild(createJárat(document, "111", "12", "Budapest", "2023/11/17 17:00", "2023/11/17 19:00", "késik"));
+        root.appendChild(createJárat(document, "112", "11", "Atlanta", "2023/11/20 11:00", "2023/11/20 23:00", "várható"));
+        root.appendChild(createJárat(document, "113", "13", "London", "2023/11/18 23:00", "2023/11/19 06:00", "várható"));
         //Jegy felvétele
         root.appendChild(document.createComment("Jegy"));
-        root.appendChild(createJegy(document, "1111", "40000", "Lufthansa", "Heathrow", "Egyesült Királyság", "2023/11/18 20:00", "2023/11/19 01:00", "1", "31"));
+        root.appendChild(createJegy(document, "1111", "40000", "Emirates", "Heathrow", "Egyesült Királyság", "2023/11/18 23:00", "2023/11/19 06:00", "1", "31"));
         root.appendChild(createJegy(document, "1112", "20000", "Qatar Airways", "Ferihegy", "Magyarország", "2023/11/17 17:00", "2023/11/17 19:00", "2", "52"));
-        root.appendChild(createJegy(document, "1113", "50000", "Emirates", "Hartsfield-Jackson", "Egyesült Államok", "2023/11/20 11:00", "2023/11/20 15:00", "1", "11"));	
+        root.appendChild(createJegy(document, "1113", "50000", "Lufthansa", "Hartsfield-Jackson", "Egyesült Államok", "2023/11/20 11:00", "2023/11/20 23:00", "1", "11"));	
         //Utasok felvétele
         root.appendChild(document.createComment("Utasok"));
         root.appendChild(createUtasok(document, "98765432", "1113", "113", "Hauer Attila", "2002", "Férfi", "Magyarország, 3527 Miskolc József Attila u. 12","+36201234567","+36701234567"));
